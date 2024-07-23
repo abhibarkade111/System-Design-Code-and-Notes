@@ -5,7 +5,7 @@ import system.design.designPattern.DecorativeDesignPattern.BasePizza;
 public class Mushroom extends ToppingDecorator{
     BasePizza basePizza;
 
-    Mushroom(BasePizza basePizza){
+    public Mushroom(BasePizza basePizza){
         this.basePizza = basePizza;
     }
 

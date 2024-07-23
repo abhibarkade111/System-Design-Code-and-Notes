@@ -6,7 +6,7 @@ public class ExtraCheese extends ToppingDecorator{
 
     BasePizza basePizza;
 
-    ExtraCheese(BasePizza basePizza){
+    public ExtraCheese(BasePizza basePizza){
         this.basePizza = basePizza;
     }
 
