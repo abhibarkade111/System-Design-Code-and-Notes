@@ -87,7 +87,7 @@ public class MyHashMap <K,V>{
 
     public static void main(String[] args) {
         MyHashMap<Integer,String> hm = new MyHashMap();
-        hm.put(1,"Abhishek");
+        hm.put(1,"Ab    hishek");
         hm.put(2, "Barkade");
         hm.put(3, "System");
         hm.put(4,"Design");
